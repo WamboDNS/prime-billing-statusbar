@@ -65,12 +65,12 @@ if [[ "$balance" == "ERR" || -z "$balance" ]]; then
   exit 0
 fi
 
-dropdown_symbol="\$"
-[[ "$currency" != "USD" ]] && dropdown_symbol="$currency "
+symbol="\$"
+[[ "$currency" != "USD" ]] && symbol="$currency "
 
-echo "${balance} | ${ICON_PARAM}"
+echo "${symbol}${balance} | ${ICON_PARAM}"
 echo "---"
-echo "Prime Intellect: ${dropdown_symbol}${balance}"
+echo "Prime Intellect: ${symbol}${balance}"
 echo "Updated: $(date '+%H:%M:%S')"
 echo "---"
 echo "Open billing dashboard | href=https://app.primeintellect.ai/dashboard/billing"
