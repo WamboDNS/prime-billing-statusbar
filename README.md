@@ -5,9 +5,7 @@ A tiny [SwiftBar](https://swiftbar.app) plugin that shows your live
 menu bar. Refreshes every 5 seconds, click for an "open billing dashboard"
 shortcut.
 
-```
-🦋 24.19    ← in your menu bar, next to Wi-Fi / clock / etc.
-```
+![Live PrimeIntellect wallet balance in the macOS menu bar, next to weather, Bluetooth, Wi-Fi and the clock](assets/screenshot.png)
 
 ## Requirements
 
